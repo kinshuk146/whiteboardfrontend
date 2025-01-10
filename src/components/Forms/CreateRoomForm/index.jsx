@@ -40,7 +40,6 @@ const CreateRoomForm = ({ uuid, socket, setUser }) => {
                         <button className="btn btn-primary btn-sm me-1" type="button" onClick={() => setRoomId(uuid())}>
                             Generate
                         </button>
-                        <button className="btn btn-outline-danger btn-sm me-2">copy</button>
                     </div>
                 </div>
             </div>
